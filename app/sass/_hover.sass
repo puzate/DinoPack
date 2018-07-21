@@ -1,0 +1,183 @@
+a
+	&:hover
+		text-decoration: none
+button
+	outline: 0
+	background-color: transparent
+	border: none
+a, button, input
+	text-decoration: none
+	&:focus,
+	&:active
+		outline: 0
+.nav-tabs
+	border-bottom: none
+@media screen and (min-width: 991px)
+	.header_soc-links
+		.__list
+			li
+				a
+					&:hover
+						color: $green
+						padding-bottom: 15px
+					&:last-child
+						&:hover
+							padding-bottom: 0
+							padding-top: 15px
+	.header_scroll
+		.__text
+			&:hover
+				color: $green
+				&:after
+					width: 100%
+					background-color: $green
+				&:before
+					left: 0
+					width: 0
+	.header_feedback
+		.__btn
+			&:hover
+				color: $green
+				&:after
+					background-color: $green
+					width: 100%
+	.header_menu
+		.__btn
+			&:hover
+				span
+					width: 65px
+					background-color: $green
+	@keyframes arrow-animate
+		0%
+			transform: translate3d(0,0,0)
+		50%
+			transform: translate3d(15px,0,0)
+		100%
+			transform: translate3d(0,0,0)
+	.home_start-screen_title
+		.__link
+			&:hover
+				color: $green
+				.__arrow
+					color: $green
+					animation-play-state: paused
+				&:after
+					width: 100%
+	.home_services_content_list
+		.__list
+			>li
+				&:hover
+					letter-spacing: 1.5px
+					&:before
+						left: -65px
+				&.active
+					&:hover
+						font-family: $r-light
+						letter-spacing: 2.1px
+						&:before
+							left: -80px
+					.__sub-list
+						>li
+							&:hover
+								&:before
+									background-color: $green
+							&.active
+								&:before
+									background-color: $green
+	.home_feedback-section_form
+		form
+			.__input-container
+				.__input
+					&:focus
+						border-color: $green
+						color: $green
+				.__btn
+					&:hover
+						color: $green
+						&:after
+							width: 100%
+	.home_steps_content_list
+		.__list
+			li
+				&:hover
+					color: #a9f1ac
+					.__number
+						color: #a9f1ac
+					&:before
+						background-color: #1b2b1c
+						width: 36px
+				&.active
+					&:hover
+						color: #d5d5d5
+						cursor: default
+						&:before
+							background-color: $green
+						.__number
+							color: $white
+	.home_rates_content_position_content
+		.__list
+			li
+				&:hover
+					&:before
+						background-color: $green
+		.__btn
+			&:hover
+				color: $green
+				&:before
+					width: 100%
+					background-color: $green
+	.home_cases_content_position_content_left
+		.__btn
+			&:hover
+				color: $green
+				&:after
+					background-color: $green
+					width: 100%
+	.owl-next,
+	.owl-prev
+		&:hover
+			svg
+				tspan,
+				text
+					fill: $green
+	.home_map_describe_container
+		.__phones-list
+			.__list
+				li
+					&:hover
+						a
+							color: #a9f1ac
+		.__mail,
+		.__skype
+			a
+				&:hover
+					color: #a9f1ac
+		.__button
+			.__btn
+				&:hover
+					color: $green
+					&:after
+						width: 100%
+						background-color: $green
+					svg
+						text, tspan
+							fill: $green
+	.footer_soc
+		.__list
+			li
+				&:hover
+					a
+						color: $green
+	.modal_container
+		form
+			.__input-container
+				.__input
+					&:focus
+						border-color: $green
+						color: $green
+				.__btn
+					&:hover
+						color: $green
+						&:after
+							background-color: $green
+							width: 100%
